@@ -9,9 +9,13 @@
 /* Begin PBXBuildFile section */
 		B6D9F93E2A97C5E000B2B8AF /* TingleADHD Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B6D9F93D2A97C5E000B2B8AF /* TingleADHD Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B6D9F9432A97C5E000B2B8AF /* TingleADHDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F9422A97C5E000B2B8AF /* TingleADHDApp.swift */; };
-		B6D9F9452A97C5E000B2B8AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F9442A97C5E000B2B8AF /* ContentView.swift */; };
 		B6D9F9472A97C5E100B2B8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D9F9462A97C5E100B2B8AF /* Assets.xcassets */; };
 		B6D9F94A2A97C5E100B2B8AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D9F9492A97C5E100B2B8AF /* Preview Assets.xcassets */; };
+		B6D9F9592A97C5F300B2B8AF /* CrownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F9542A97C5F200B2B8AF /* CrownView.swift */; };
+		B6D9F95A2A97C5F300B2B8AF /* Seesaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F9552A97C5F200B2B8AF /* Seesaw.swift */; };
+		B6D9F95B2A97C5F300B2B8AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F9562A97C5F200B2B8AF /* ContentView.swift */; };
+		B6D9F95C2A97C5F300B2B8AF /* TapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F9572A97C5F200B2B8AF /* TapView.swift */; };
+		B6D9F95D2A97C5F300B2B8AF /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F9582A97C5F300B2B8AF /* GyroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +46,13 @@
 		B6D9F9372A97C5E000B2B8AF /* TingleADHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TingleADHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D9F93D2A97C5E000B2B8AF /* TingleADHD Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TingleADHD Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D9F9422A97C5E000B2B8AF /* TingleADHDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TingleADHDApp.swift; sourceTree = "<group>"; };
-		B6D9F9442A97C5E000B2B8AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6D9F9462A97C5E100B2B8AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6D9F9492A97C5E100B2B8AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6D9F9542A97C5F200B2B8AF /* CrownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrownView.swift; sourceTree = "<group>"; };
+		B6D9F9552A97C5F200B2B8AF /* Seesaw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seesaw.swift; sourceTree = "<group>"; };
+		B6D9F9562A97C5F200B2B8AF /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../Tingle/Tingle Watch App/ContentView.swift"; sourceTree = "<group>"; };
+		B6D9F9572A97C5F200B2B8AF /* TapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapView.swift; sourceTree = "<group>"; };
+		B6D9F9582A97C5F300B2B8AF /* GyroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +87,11 @@
 			isa = PBXGroup;
 			children = (
 				B6D9F9422A97C5E000B2B8AF /* TingleADHDApp.swift */,
-				B6D9F9442A97C5E000B2B8AF /* ContentView.swift */,
+				B6D9F9562A97C5F200B2B8AF /* ContentView.swift */,
+				B6D9F9542A97C5F200B2B8AF /* CrownView.swift */,
+				B6D9F9582A97C5F300B2B8AF /* GyroView.swift */,
+				B6D9F9552A97C5F200B2B8AF /* Seesaw.swift */,
+				B6D9F9572A97C5F200B2B8AF /* TapView.swift */,
 				B6D9F9462A97C5E100B2B8AF /* Assets.xcassets */,
 				B6D9F9482A97C5E100B2B8AF /* Preview Content */,
 			);
@@ -192,8 +204,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D9F9452A97C5E000B2B8AF /* ContentView.swift in Sources */,
+				B6D9F95D2A97C5F300B2B8AF /* GyroView.swift in Sources */,
+				B6D9F95B2A97C5F300B2B8AF /* ContentView.swift in Sources */,
+				B6D9F95C2A97C5F300B2B8AF /* TapView.swift in Sources */,
+				B6D9F9592A97C5F300B2B8AF /* CrownView.swift in Sources */,
 				B6D9F9432A97C5E000B2B8AF /* TingleADHDApp.swift in Sources */,
+				B6D9F95A2A97C5F300B2B8AF /* Seesaw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

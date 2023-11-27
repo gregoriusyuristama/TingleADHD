@@ -43,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B6B9AADB2B14A2FC00B07676 /* TingleADHD-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TingleADHD-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B6D9F9372A97C5E000B2B8AF /* TingleADHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TingleADHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D9F93D2A97C5E000B2B8AF /* TingleADHD Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TingleADHD Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D9F9422A97C5E000B2B8AF /* TingleADHDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TingleADHDApp.swift; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 		B6D9F9412A97C5E000B2B8AF /* TingleADHD Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				B6B9AADB2B14A2FC00B07676 /* TingleADHD-Watch-App-Info.plist */,
 				B6D9F9422A97C5E000B2B8AF /* TingleADHDApp.swift */,
 				B6D9F9542A97C5F200B2B8AF /* CrownView.swift */,
 				B6D9F95E2A97CA3D00B2B8AF /* ContentView.swift */,
@@ -344,6 +346,7 @@
 				DEVELOPMENT_TEAM = U43A7X58YW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TingleADHD-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = TingleADHD;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -374,6 +377,7 @@
 				DEVELOPMENT_TEAM = U43A7X58YW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TingleADHD-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = TingleADHD;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
